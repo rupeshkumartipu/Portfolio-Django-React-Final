@@ -1,0 +1,126 @@
+/* src/components/Home.css */
+.home-container {
+    padding: 20px;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Cambria', sans-serif;
+}
+
+.home-header {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.home-header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.home-header h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.home-header h2 {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.home-header p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.home-section {
+    margin-bottom: 30px;
+}
+
+.home-section h3 {
+    font-size: 22px;
+    color: #333;
+    border-bottom: 2px solid #04AA6D;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.home-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.home-section li {
+    background: #f9f9f9;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.home-section li:hover {
+    transform: scale(1.02);
+    background-color: #f1f1f1;
+}
+
+.home-section li h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.home-section li p {
+    font-size: 16px;
+    color: #555;
+}
+
+.download-cv {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.download-cv button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-cv button:hover {
+    background-color: #037d50;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}

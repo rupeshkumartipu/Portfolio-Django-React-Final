@@ -1,0 +1,57 @@
+/* src/components/Educations.css */
+.education-container {
+    padding: 20px;
+    font-family: 'Cambria', sans-serif;
+    color: #333;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.education-container h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.education-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.education-item {
+    background: #f9f9f9;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.education-item:hover {
+    transform: scale(1.02);
+}
+
+.education-item h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.education-university {
+    font-size: 18px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.education-specialization {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.education-description {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
